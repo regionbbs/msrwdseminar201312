@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR Message Exchange Sample (Broadcast, Unicast and Multicast)</title>
+    <style type="text/css">
+        .container {
+            background-color: #99CCFF;
+            border: thick solid #808080;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        X: <input type="text" id="valueX" />&nbsp;&nbsp;&nbsp;
+        Y: <input type="text" id="valueY" /> <br />
+        Send To: <select id="targetUsers" multiple="multiple" size="5"></select>
+        <br />
+        <input type="button" id="cmdCalculate" value="Calculate" />
+        <input type="hidden" id="displayname" />
+        <ul id="discussion"></ul>
+    </div>
+    <script src="Scripts/jquery-2.0.3.min.js" "></script>
+    <script src="Scripts/jquery.signalR-2.0.0.min.js"></script>
+    <script src="/myConnection/hubs"></script>
+    <script type="text/javascript">
+        $(function () {
+            // Declare a proxy to reference the hub.
+            var mathApp = $.connection.mathHub;
+
+            // Create a function that the hub can call to broadcast messages.
+            mathApp.client.getCalculateSummaryResult = function (type, value) {
+                // Html encode display name and message.
+                var encodedType = $('<div />').text(type).html();
+                var encodedValue = $('<div />').text(value).html();
+                // Add the message to the page.
+                $('#discussion').append('<li><strong>Message sent type: ' + encodedType
+                    + '</strong>&nbsp;&nbsp; Value: ' + encodedValue + '</li>');
+            };
+
+            mathApp.client.getNewUserPrompt = function (id, name) {
+
+                $('#discussion').append('<li style="color: red;"><strong>New User added in'
+                    + '</strong>:&nbsp;&nbsp;' + name + '</li>');
+                $('#targetUsers').append($("<option></option>").val(id).text(name));
+
+            };
+
+            mathApp.client.createUsers = function (o) {
+                $('#targetUsers').empty();
+                $.each(o, function (i, e) {
+                    $('#targetUsers').append($("<option></option>").val(e.id).text(e.name));
+                });
+            };
+
+            mathApp.client.notifyUserJoined = function () {
+                $('#discussion').append('<li style="color: red;">A new user joined.</li>');
+            };
+
+            mathApp.client.notifyUserLeaved = function () {
+                $('#discussion').append('<li style="color: red;">A user leaved.</li>');
+            }
+
+            // Get the user name and store it to prepend to messages.
+            $('#displayname').val(prompt('Enter your name:', ''));
+
+            // Start the connection.
+            $.connection.hub.start().done(function () {
+
+                // bind event handler.
+                $('#cmdCalculate').click(function () {
+                    
+                    if ($("#targetUsers").find(":selected").length == 0) {
+                        // broadcast method.
+                        mathApp.server.calculateSummaryB(
+                            parseInt($('#valueX').val()), parseInt($('#valueY').val()));
+                    }
+                    else if ($("#targetUsers").find(":selected").length == 1) {
+                        // unicast method.
+                        mathApp.server.calculateSummaryU(
+                            $("#targetUsers").find(":selected").first().val(),
+                            parseInt($('#valueX').val()), parseInt($('#valueY').val()));
+                    }
+                    else {
+                        // multicast method.
+                        var users = [];
+                        $("#targetUsers").find(":selected").each(function (i, e) {
+                            users.push($(e).val());
+                        });
+
+                        // unicast method.
+                        mathApp.server.calculateSummaryM(
+                            users,
+                            parseInt($('#valueX').val()), parseInt($('#valueY').val()));
+                    }
+
+                });
+
+                if ($('#displayname').val() != "") {
+                    // join session.
+                    mathApp.server.join($('#displayname').val());
+                }
+
+                // get online users.
+                mathApp.server.getUsers();
+            });
+        });
+    </script>
+</body>
+</html>
