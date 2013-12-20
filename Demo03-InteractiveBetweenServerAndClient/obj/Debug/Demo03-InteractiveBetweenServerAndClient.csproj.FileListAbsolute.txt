@@ -17,3 +17,22 @@ d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo03-Interactiv
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo03-InteractiveBetweenServerAndClient\obj\Debug\Demo03-InteractiveBetweenServerAndClient.dll
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo03-InteractiveBetweenServerAndClient\obj\Debug\Demo03-InteractiveBetweenServerAndClient.pdb
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo03-InteractiveBetweenServerAndClient\obj\Debug\Demo03-InteractiveBetweenServerAndClient.csprojResolveAssemblyReference.cache
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Demo03-InteractiveBetweenServerAndClient.dll.config
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Demo03-InteractiveBetweenServerAndClient.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Demo03-InteractiveBetweenServerAndClient.pdb
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.Owin.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.Owin.Security.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Newtonsoft.Json.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Owin.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.Owin.xml
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Microsoft.Owin.Security.xml
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\bin\Newtonsoft.Json.xml
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\obj\Debug\Demo03-InteractiveBetweenServerAndClient.csprojResolveAssemblyReference.cache
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\obj\Debug\Demo03-InteractiveBetweenServerAndClient.dll
+C:\code\msrwdseminar201312\Demo03-InteractiveBetweenServerAndClient\obj\Debug\Demo03-InteractiveBetweenServerAndClient.pdb

@@ -35,3 +35,40 @@ d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo01-GettingSta
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo01-GettingStartedSignalR\obj\Debug\Demo01-GettingStartedSignalR.csprojResolveAssemblyReference.cache
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo01-GettingStartedSignalR\obj\Debug\Demo01-GettingStartedSignalR.dll
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo01-GettingStartedSignalR\obj\Debug\Demo01-GettingStartedSignalR.pdb
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Demo01-GettingStartedSignalR.dll.config
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Demo01-GettingStartedSignalR.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Demo01-GettingStartedSignalR.pdb
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.Owin.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.Owin.Security.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Newtonsoft.Json.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Owin.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Helpers.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Mvc.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Razor.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Webpages.Deployment.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Webpages.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Webpages.Razor.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.Owin.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Microsoft.Owin.Security.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\Newtonsoft.Json.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Razor.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Webpages.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Webpages.Deployment.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Webpages.Razor.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Helpers.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\System.Web.Mvc.xml
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\obj\Debug\Demo01-GettingStartedSignalR.csprojResolveAssemblyReference.cache
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\obj\Debug\Demo01-GettingStartedSignalR.dll
+C:\code\msrwdseminar201312\Demo01-GettingStartedSignalR\obj\Debug\Demo01-GettingStartedSignalR.pdb

@@ -28,9 +28,9 @@ namespace demo01_BasicMVC
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "111",
+               appSecret: "222");
 
             //app.UseGoogleAuthentication();
         }

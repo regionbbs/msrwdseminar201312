@@ -62,6 +62,6 @@ namespace demo03_ASPNETIndentity.Models
         public string ConfirmPassword { get; set; }
 
         // custom field.
-        public DateTime BirthDate { get; set; } }
+        public DateTime BirthDate { get; set; } 
     }
 }

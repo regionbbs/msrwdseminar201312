@@ -17,3 +17,22 @@ d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo02-HelloSigna
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo02-HelloSignalR\obj\Debug\Demo02-HelloSignalR.dll
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo02-HelloSignalR\obj\Debug\Demo02-HelloSignalR.pdb
 d:\docs\visual studio 2013\Projects\ResponsiveWebDesignSeminar\Demo02-HelloSignalR\obj\Debug\Demo02-HelloSignalR.csprojResolveAssemblyReference.cache
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Demo02-HelloSignalR.dll.config
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Demo02-HelloSignalR.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Demo02-HelloSignalR.pdb
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.Owin.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.Owin.Security.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Newtonsoft.Json.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Owin.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.Owin.xml
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Microsoft.Owin.Security.xml
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\bin\Newtonsoft.Json.xml
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\obj\Debug\Demo02-HelloSignalR.csprojResolveAssemblyReference.cache
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\obj\Debug\Demo02-HelloSignalR.dll
+C:\code\msrwdseminar201312\Demo02-HelloSignalR\obj\Debug\Demo02-HelloSignalR.pdb
